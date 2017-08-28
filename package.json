@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/fromIteratorToArray#readme",
   "repository": "github:unctionjs/fromIteratorToArray",
   "bugs": "https://github.com/unctionjs/fromIteratorToArray/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -58,6 +58,5 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-  },
-  "main": "transpiled/index.js"
+  }
 }

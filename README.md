@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> IteratorType -> Array<mixed>
+> IteratorType => Array<mixed>
 
 Takes an Iterator (SetIterator, MapIterator, etc) and turns it into an array.
 

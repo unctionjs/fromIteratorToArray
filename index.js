@@ -1,7 +1,7 @@
-const fromIteratorToArrayIterator = list => iterator => {
+const fromIteratorToArrayIterator = (list) => (iterator) => {
   const {
     value,
-    done
+    done,
   } = iterator.next();
 
   if (done) {
@@ -11,6 +11,6 @@ const fromIteratorToArrayIterator = list => iterator => {
   return fromIteratorToArrayIterator([...list, value])(iterator);
 };
 
-export default function fromIteratorToArray(iterator) {
+export default function fromIteratorToArray (iterator) {
   return fromIteratorToArrayIterator([])(iterator);
 }

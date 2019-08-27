@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import fromIteratorToArray from "./index";
+import fromIteratorToArray from "./";
 
 test(({same, end}) => {
   same(

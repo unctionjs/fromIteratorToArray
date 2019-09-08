@@ -1,6 +1,6 @@
 {
   "name": "@unction/fromiteratortoarray",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "",
   "keywords": [
     "unction",
@@ -52,8 +52,7 @@
     "jest-extended": "0.11.2",
     "typescript": "3.5.1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "index.ts",
     "main.js",

@@ -52,7 +52,8 @@
     "jest-extended": "0.11.2",
     "typescript": "3.5.1"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "files": [
     "index.ts",
     "main.js",
@@ -61,5 +62,6 @@
   ],
   "module": "module.js",
   "browser": "browser.js",
-  "types": "types.d.ts"
+  "types": "types.d.ts",
+  "sideEffects": false
 }
